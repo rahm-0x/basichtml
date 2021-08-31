@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Form</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="name">Full Name:</label>
+        <input id="name" type="text" size="50" name="name" />
+      </div>
+      <br />
+      <div>
+        <label for="name">Email:</label>
+        <input id="email" type="email" size="50" name="email" />
+      </div>
+      <br />
+      <div>
+        <label for="form-message">Your message:</label>
+        <br />
+        <textarea
+          id="form-message"
+          name="message"
+          autofocus="on"
+          required
+          maxlength="200"
+          placeholder="How can I help you?"
+        >
+        </textarea>
+      </div>
+      <br />
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
